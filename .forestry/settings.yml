@@ -77,5 +77,5 @@ build:
   preview_output_directory: public
   install_dependencies_command: npm install
   preview_docker_image: node:10
-  mount_path: "/srv"
+  mount_path: "/"
   instant_preview_command: npm run build
